@@ -1,0 +1,104 @@
+/*body{
+	background: red;
+}*/
+
+/*Selector class*/
+
+.container{
+	width: 1200;
+	border: 2px solid orange;
+	padding: 10px;
+	text-align: justify;
+	margin: auto;
+}
+
+header{
+	background: white;
+	width: 100%;
+}
+/* Estilo para el logo */
+.logo {
+  position: absolute;   /* Lo fija en la esquina */
+  top: 10px;            /* Separación desde arriba */
+  left: 150px;           /* Separación desde la izquierda */
+  width: 90px;          /* Tamaño pequeño */
+  height: auto;         /* Mantiene proporción */
+}
+/* Ajuste del body para que no se superponga */
+.titulo {
+  margin-top: 100px; /* Deja espacio para el logo */
+
+}
+/**/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #000;
+}
+
+.top {
+  background: peachpuff;
+}
+
+.middle {
+  background: #fff;
+  padding-left: 50%;
+}
+
+.bottom {
+  background: green;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.small { font-size: 12px; }
+.highlight { background: yellow; }
+.underline { text-decoration: underline; }
+.strike { text-decoration: line-through; }
+
+.social img {
+  width: 30px;
+  margin: 0 5px;
+}
+/**/
+.container main img{
+	width: 100%;
+} 
+
+.menu ul li a{
+	background: white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 16px;
+}
+
+.menu ul{
+	list-style: none;
+
+}
+
+.menu ul li{
+	float: left;
+}
+
+/*Evento hover*/
+
+.menu ul li a:hover{
+	background: black;
+	color: white;
+}
+
+nav {
+  display: flex;          /* Activa flexbox */
+  justify-content: center; /* Mueve todo al centro*/
+  background-color: #fff; /* opcional */
+  padding: 10px;          /* espacio interno */
+}
+
+nav a {
+  margin-left: 20px;      /* separa los links entre sí */
+  text-decoration: none;
+  color: purple;
+}
