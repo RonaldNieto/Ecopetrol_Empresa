@@ -36,6 +36,7 @@
         <p><strong>Usuario:</strong> <?php echo $_POST["usuario"]; ?></p>
         
         <p>✨ Gracias por registrarte. Ahora formas parte de nuestra comunidad de usuarios Ecopetrol.</p>
+<<<<<<< HEAD
 			 <footer class="bottom">
             <p>Página web realizada para fines netamente académicos por: Ronald Andrés Nieto Collante © 2016</p>
             <div class="social">
@@ -54,4 +55,19 @@
         </footer>
     </div>
 </body>
+=======
+			<footer class="bottom">
+				<p>Página web realizada para fines netamente académicos por: Ronald Andrés Nieto Collante © 2016</p>
+				<div class="social">
+				<a href="https://www.facebook.com/EcopetrolOficial/"><img src="../img/boton_facebook.png" alt="Facebook"></a>
+				<a href="https://www.instagram.com/accounts/login/?next=%2Fecopetroloficial%2F&source=omni_redirect"><img src="../img/boton_instagram.png" alt="Instagram"></a>
+				<a href="https://www.linkedin.com/company/ecopetroloficial/"><img src="../img/boton_linkedin.png" alt="LinkedIn"></a>
+				</div>
+				<p>Ingeniero en formación Ronald Andrés Nieto Collante<br>Docente UPC Seccional Aguachica</p>
+				<small>"El éxito es como los pedos, la gente se molesta cuando no es de ellos." - Bill Gates</small>
+			</footer>
+    </div>
+</body>
+
+>>>>>>> 57800e2fd0ffae2e298efbe71ecd02341b93cf80
 </html>
