@@ -3,108 +3,57 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Olimpica</title>
-
-	<style>
-		form {
-		border-radius: 5px;
-		background-color: #f2f2f2;
-		padding: 20px;
-		width: 100%;
-		}
-
-		label {display: block;}
-
-		input[type=text], input[type=password], select {
-		width: 100%;
-		padding: 12px;
-		margin: 8px 0;
-		display: inline-block;
-		border: 1px solid #ccc;
-		border-radius: 4px;
-		box-sizing: border-box;
-		}
-
-
-		input[type=submit] {
-		width: 100%;
-		background-color: #4CAF50;
-		color: white;
-		padding: 14px;
-		margin: 8px 0;
-		border: none;
-		border-radius: 4px;
-		cursor: pointer;
-		}
-
-		input[type=submit]:hover {
-		background-color: #45a049;
-		}
-	</style>
+	<title>Ecopetrol</title>
 </head>
 <link rel="stylesheet" href="../css/style.css">
 <body>
 	<div class="container">
-		<img src="../img/olimpica_logo.png" alt="Logo Olímpica" class="logo" >
-		<header>
+		<img src="../img/ecopetrol_logo.png" alt="Logo Ecopetrol" class="logo" >
+		<header class="encabezado">
+		    <img src="../img/contacto.png" alt="imagen de productos" class="titulo">
+
 			<nav class="menu">
 				<ul>
-					<li><a href="../index.html"><img src="../img/boton_inicio.png" width="100" height="100"></a></li>
-					<li><a href="../view/productos.html"><img src="../img/boton_productos.png" width="100" height="100"></a></li>
-					<li><a href="../view/servicios.html"><img src="../img/boton_servicio.png" width="100" height="100"></a></li>
-					<li><a href="#"><img src="../img/boton_contactos.png" width="100" height="100"></a></li>
+				<li><a href="../index.html"><img src="../img/boton_inicio.png" alt="Inicio"></a></li>
+				<li><a href="productos.html"><img src="../img/boton_productos.png" alt="Productos"></a></li>
+				<li><a href=servicios.html"><img src="../img/boton_servicio.png" alt="Servicios"></a></li>
+				<li><a href="#"><img src="../img/boton_contactos.png" alt="Contactos"></a></li>
 				</ul>
 			</nav>
 		</header>
 		<main>	
-			<img src="../img/contacto.jpeg" alt="">
-			<div class="main_principal">
-				<h2>Bienvenidos a mi página</h2>
-				<h2>Para comunicarse con un asesor de clic en la imagen de whatsapp</h2> 
-				<p style="text-align: center;">
-				<a href="https://api.whatsapp.com/send/?phone=573206501059&text=Hola%2C+necesito+informaci%C3%B3n&type=phone_number&app_absent=0">
-					<img src="../img/img_boton_whatsapp.png" style="width: 80px;" alt="">
-				</a> </p>
-				<p>📞 Teléfono de atención: cuentan con líneas nacionales y locales para resolver dudas sobre compras, servicios y promociones.<br>
-				🌐 Página web oficial: allí puedes encontrar formularios de contacto, chat en línea y secciones de ayuda.<br>
-				📧 Correo electrónico: disponible para consultas más específicas o solicitudes formales.<br>
-				🏬 Tiendas físicas: en cada punto de venta hay servicio al cliente para atender reclamos, devoluciones o información sobre productos.<br>
-				📱 Redes sociales y app móvil: responden mensajes directos y comentarios, además de ofrecer soporte digital.</p>
-			</div>
-		</main>
-		<h2>Formulario de contacto</h2>
+				<div class="main_principal">
+					<h2>Para comunicarse con un asesor de clic en la imagen de whatsapp</h2> 
+						<p style="text-align: center;">
+						<a href="https://api.whatsapp.com/send/?phone=573103158600&text=Hola%2C+necesito+informaci%C3%B3n&type=phone_number&app_absent=0">
+							<img src="../img/img_boton_whatsapp.png" style="width: 80px;" alt="">
+						</a> </p>
 
-			<form action="/action_page.php" method="post">
-			
-				<label for="cc">Cédula</label>
-				<input type="number" id="cc" name="cc" placeholder="Tu número de cédula.." required>
-
-				<label for="nombres">Nombres</label>
-				<input type="text" id="nombres" name="nombres" placeholder="Tus nombres.." required>
-
-				<label for="apellidos">Apellidos</label>
-				<input type="text" id="apellidos" name="apellidos" placeholder="Tus apellidos.." required>
-
-				<label for="email">Email</label>
-				<input type="email" id="email" name="email" placeholder="Tu correo electrónico.." required>
-
-				<label for="usuario">Usuario</label>
-				<input type="text" id="usuario" name="usuario" placeholder="Tu nombre de usuario.." required>
-
-				<label for="password">Password</label>
-				<input type="password" id="password" name="password" placeholder="Tu contraseña.." required>
-
-				<input type="submit" value="Enviar">
-
-			</form>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15791.71315954373!2d-73.62470435475173!3d8.309925334885476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e5d857e8e1419b9%3A0xd1e751c0dbf7b1ac!2sOlimpica!5e0!3m2!1ses-419!2sco!4v1773699838834!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-			<footer class="bottom">
-				<p>Página web realizada por Calletana López Baleta © 2024</p>
-				<div class="social">
-				<a href="https://web.facebook.com/SupertiendaOlimpica/?_rdc=1&_rdr#"><img src="../img/boton_facebook.png" alt="Facebook"></a>
-				<a href="https://www.instagram.com/supertiendasolimpica/"><img src="../img/boton_instagram.png" alt="Instagram"></a>
-				<a href="https://www.linkedin.com/company/supertiendas-ol%C3%ADmpica/?originalSubdomain=co"><img src="../img/boton_linkedin.png" alt="LinkedIn"></a>
+					<h2>📞 Contáctanos</h2>
+						<p>
+							En Ecopetrol queremos estar cerca de ti. Ponemos a tu disposición diferentes canales de comunicación para resolver tus inquietudes y acompañarte en cada paso.
+						</p>
+						<ul>
+							<li><strong>Teléfono nacional gratuito:</strong> 01-8000-123-456</li>
+							<li><strong>Correo electrónico:</strong> contacto@ecopetrol.com.co</li>
+							<li><strong>Dirección:</strong> Carrera 13 # 36-24, Bogotá, Colombia</li>
+							<li><strong>Horario de atención:</strong> Lunes a viernes, 8:00 a.m. – 5:00 p.m.</li>
+							</ul>
+						<p>
+							También puedes encontrarnos en nuestras redes sociales oficiales y en el formulario de contacto de esta página.  
+							<br>✨ ¡Estamos aquí para escucharte!
+						</p>
 				</div>
+		</main>
+			<footer class="bottom">
+				<p>Página web realizada para fines netamente académicos por: Ronald Andrés Nieto Collante © 2016</p>
+				<div class="social">
+				<a href="https://www.facebook.com/EcopetrolOficial/"><img src="../img/boton_facebook.png" alt="Facebook"></a>
+				<a href="https://www.instagram.com/accounts/login/?next=%2Fecopetroloficial%2F&source=omni_redirect"><img src="../img/boton_instagram.png" alt="Instagram"></a>
+				<a href="https://www.linkedin.com/company/ecopetroloficial/"><img src="../img/boton_linkedin.png" alt="LinkedIn"></a>
+				</div>
+				<p>Ingeniero en formación Ronald Andrés Nieto Collante<br>Docente UPC Seccional Aguachica</p>
+				<small>"El éxito es como los pedos, la gente se molesta cuando no es de ellos." - Bill Gates</small>
 			</footer>
 	</div>
 </body>
